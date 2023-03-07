@@ -1,0 +1,11 @@
+programa {
+  funcao inicio() {
+  real custo, impostos, mrg, markup
+  escreva ("Informe o custo de fabrica sem impostos.")
+  leia (custo)
+  impostos = custo * 0.45
+  mrg = custo + impostos
+  escreva (mrg)
+  markup = mrg * 0.28 + mrg
+  }
+}
